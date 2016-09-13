@@ -38,15 +38,28 @@ tags: 工具箱
 *  [Jquery插件](http://www.jq22.com)
 *  [Web骇客](http://www.webhek.com)
 *  界面设计(干货)
-   *  [dribbble](https://dribbble.com/)
-   *  [uplabs](https://www.uplabs.com/)
-   *  [adobecolor](https://color.adobe.com/zh/explore/newest/)
-   *  [colordrop](https://colordrop.io/)
-   *  [materialpalette](https://www.materialpalette.com/cyan/light-blue)
-   *  [iconfont](http://www.iconfont.cn/collections?personal=1)
-   *  [icons8](https://icons8.com/web-app/new-icons/all)
-
-
-
+   *  [dribbble---由众多国内外优秀的设计师或开发者，分享的一些设计效果图，其中一些内容还分享了通过代码实现的方法，代码基本都是托管在 GitHub 上的，很方便我们去学习。](https://dribbble.com/)
+   *  [uplabs---专注于面向程序猿的设计，包含 Android，iOS，Web 三个方面，如果你像搜索一下，App , icon ,之类的内容，那这个是最合适不过的了。](https://www.uplabs.com/)
+   *  [adobecolor---Adobe 公司为广大设计者，提供的配色大全，哈哈。如果你有设计的基础，或者想自己去调一些颜色，那这个绝对是你的最爱，涵盖了众多颜色，同时还可以自己自定义。譬如说，去调整色域，透明度等等，应有尽有](https://color.adobe.com/zh/explore/newest/)
+   *  [colordrop---这个是我用的最多的，很简单直接，颜色也特别符合 Material Design,可以选择 HEX 和 RGB 两个颜色格式，不用花心思去找，因为每一种颜色都特别好看](https://colordrop.io/)
+   *  [materialpalette---颜色较少，但是基本常用的都涵盖了，而且可以直观的看到搭配出来的效果，这一点很棒！](https://www.materialpalette.com/cyan/light-blue)
+   *  [iconfont---阿里巴巴的公开图标库，包括了支付宝，淘宝，天猫等阿里系的全部设计图标，同时还有一些个人设计开发的图标，图标数量特别庞大，可以根据关键字去搜索相应的图标，并且还能自定义颜色](http://www.iconfont.cn/collections?personal=1)
+   *  [icons8---涵盖了 Android ，iOS , Windows 众多平台的图标，提供多种类型格式下载。有很多有意思的图标，同时还有 windows 版本客户端](https://icons8.com/web-app/new-icons/all)
+*  前端开发
+   *  [w3cplus](http://www.w3cplus.com/)
+   *  [w3cfuns](http://www.w3cfuns.com/)
+   *  [div.io](http://div.io/digg)
+   *  [w3c规范](https://www.w3.org/)
+   *  [ES2016--(ES6)](https://babeljs.io/docs/learn-es2015/)
+*  iOS开发
+   *  [RyPress](http://rypress.com/)
+   *  [AppCoda](http://www.appcoda.com/)
+   *  [Raywenderlich](https://www.raywenderlich.com/)
+   *  [iOSDevWeekly](http://iosdevweekly.com/)
+   *  [objc China](https://www.objccn.io/)
+   *  [objc io](https://www.objc.io/)
+   *  [codeschool](https://www.codeschool.com/)
+   *  [iOS TOP opensource](http://mightysignal.com/top-ios-sdks)
+   *  [iOS 从入门到进阶的最全资料](http://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ==&mid=2709545194&idx=1&sn=e0e20cd038874aaf57b7e9de0910ab92&scene=0#wechat_redirect) 
 
 以后继续添加
