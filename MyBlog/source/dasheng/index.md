@@ -1,7 +1,5 @@
-title: android开发大牛博客
-date: 2014-05-15 14:36:05
----
-转载自(http://yeungeek.com/android大神/)
+
+原地址：https://github.com/yeungeek/awesome-android-person
 # Android大神
 受[Trinea](https://github.com/Trinea)的开源项目的启发和参考，也准备列一列Android圈里的大神们。
 介绍一群乐于分享，乐于开源，向往自由的android大神们。还有乐于开源的一些组织。  
@@ -12,40 +10,43 @@ date: 2014-05-15 14:36:05
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yeungeek/awesome-android-libraries?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  
 
 排名不分先后
-
-原地址：https://github.com/yeungeek/awesome-android-person
-
 ## ORG
-* [Google](#Google)
-* [Facebook](#Facebook)
-* [Square](#Square)
-* [Yalantis](#Yalantis)
-* [Alibaba](#Alibaba)
+* [Google](#google)
+* [Facebook](#facebook)
+* [Square](#square)
+* [Yalantis](#yalantis)
+* [Alibaba](#alibaba)
 
 ## COM
-* [Jake Wharton](#Jake_Wharton)
-* [Chris Banes](#Chris_Banes)
-* [Mark Murphy](#Mark_Murphy)
-* [Sergey Tarasevich](#Sergey_Tarasevich)
-* [Koushik Dutta](#Koushik_Dutta)
-* [Jeremy Feinstein](#Jeremy_Feinstein)
-* [Simon Vig](#Simon_Vig)
-* [James Smith](#James_Smith)
-* [Roman Nurik](#Roman_Nurik)
-* [Romain Guy](#Romain_Guy)
-* [ManuelPeinado](#Manuelpeinado)
-* [Emil Sjölander](#Emil_Sjölander)
-* [Daniel Lew](#Daniel_Lew)
-* [Vladislav Bauer](#Vladislav_Bauer)
+* [Jake Wharton](#jake-wharton)
+* [Chris Banes](#chris-banes)
+* [Mark Murphy](#mark-murphy)
+* [Sergey Tarasevich](#sergey-tarasevich)
+* [Koushik Dutta](#koushik-dutta)
+* [Jeremy Feinstein](#jeremy_feinstein)
+* [Simon Vig](#simon-vig)
+* [James Smith](#james-smith)
+* [Roman Nurik](#roman-nurik)
+* [Romain Guy](#romain-guy)
+* [ManuelPeinado](#manuelpeinado)
+* [Emil Sjölander](#emil-sjölander)
+* [Daniel Lew](#daniel-lew)
+* [Vladislav Bauer](#vladislav-bauer)
 
 ## CN
 * [罗升阳](#罗升阳)
 * [邓凡平](#邓凡平)
-* [Trinea](#Trinea)
+* [Trinea](#trinea)
 * [魏祝林](#魏祝林)
-* [halzhang](#Halzhang)
-* [daimajia](#Daimajia)
+* [halzhang](#halzhang)
+* [daimajia](#daimajia)
 * [张鸿洋](#张鸿洋)
+* [郭霖](#郭霖)
+* [张兴业](#张兴业)
+* [闷瓜蛋子](#闷瓜蛋子)
+* [傲慢的上校](#傲慢的上校)
+* [任玉刚](#任玉刚)
+* [Mr.Simple](#mrsimple)
 
 ### [Google](https://github.com/google)
 ![](https://avatars0.githubusercontent.com/u/1342004?v=3&s=188)  
@@ -59,7 +60,11 @@ google在github上面开源了很多android库应用，尤其是[googleSamples](
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/+AndroidDevelopers)[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/google)[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://developer.android.com/)
+<div style="display:inline-block;">
+[![](art/google_plus.png)](https://plus.google.com/+AndroidDevelopers)[![](art/github.png)](https://github.com/google)[![](art/web.png)](http://developer.android.com/) 
+</div>
+
+
 
 ### [Facebook](https://github.com/facebook)
 ![](https://avatars0.githubusercontent.com/u/69631?v=3&s=188)  
@@ -67,7 +72,7 @@ google在github上面开源了很多android库应用，尤其是[googleSamples](
 开源上怎么能少Facebook，至于为什么开源-[Facebook开源的真正原因](http://www.infoq.com/cn/news/2015/07/Facebook-LAMP?utm_source=infoq&utm_medium=popular_widget&utm_campaign=popular_content_list&utm_content=homepage)
 先看看android上开源项目：  
 
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/facebook_open_source.png)](https://code.facebook.com/android/)
+[![](art/facebook_open_source.png)](https://code.facebook.com/android/)
 
 **masterpiece**:  
 * [fresco](https://github.com/facebook/fresco)
@@ -79,8 +84,8 @@ google在github上面开源了很多android库应用，尤其是[googleSamples](
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+FacebookUS) [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/facebook)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](https://code.facebook.com)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+FacebookUS)   [![](art/github.png)](https://github.com/facebook)
+[![](art/web.png)](https://code.facebook.com)
 
 ### [Square](https://github.com/square)
 ![](https://avatars2.githubusercontent.com/u/82592?v=3&s=188)  
@@ -99,8 +104,8 @@ google在github上面开源了很多android库应用，尤其是[googleSamples](
 ...  
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/+square)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/square)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://square.github.io/)
+[![](art/google_plus.png)](https://plus.google.com/+square)   [![](art/github.png)](https://github.com/square)
+[![](art/web.png)](http://square.github.io/)
 
 ### [Yalantis](https://github.com/Yalantis)
 ![](https://avatars0.githubusercontent.com/u/752338?v=3&s=188)  
@@ -119,8 +124,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/104899718426548341601)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/Yalantis)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](https://yalantis.com/)
+[![](art/google_plus.png)](https://plus.google.com/u/0/104899718426548341601)   [![](art/github.png)](https://github.com/Yalantis)
+[![](art/web.png)](https://yalantis.com/)
 
 ### [Alibaba](https://github.com/alibaba)
 ![](https://avatars1.githubusercontent.com/u/1961952?v=3&s=188)  
@@ -134,11 +139,11 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/alibaba)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://code.taobao.org/)
+[![](art/github.png)](https://github.com/alibaba)
+[![](art/web.png)](http://code.taobao.org/)
 
 
-<a href="#ORG" title="返回目录" style="width:100%"><img src="https://raw.githubusercontent.com/yeungeek/awesome-android-person/master/art/ic_arrow.png" align="right"/></a>
+<a href="#org" title="返回目录" style="width:100%"><img src="https://raw.githubusercontent.com/yeungeek/awesome-android-person/master/art/ic_arrow.png" align="right"/></a>
 
 ### [Jake Wharton](https://github.com/JakeWharton)
 ![](https://avatars0.githubusercontent.com/u/66577?v=3&s=188)  
@@ -157,8 +162,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+JakeWharton)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/JakeWharton)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://jakewharton.com)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+JakeWharton)   [![](art/github.png)](https://github.com/JakeWharton)
+[![](art/web.png)](http://jakewharton.com)
 
 ### [Chris Banes](https://github.com/chrisbanes)
 ![](https://avatars1.githubusercontent.com/u/227486?v=3&s=188)  
@@ -176,8 +181,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+ChrisBanes)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/chrisbanes)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://chris.banes.me/)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+ChrisBanes)   [![](art/github.png)](https://github.com/chrisbanes)
+[![](art/web.png)](http://chris.banes.me/)
 
 ### [Mark Murphy](https://github.com/commonsguy)
 ![](https://avatars0.githubusercontent.com/u/103772?v=3&s=188)
@@ -192,8 +197,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/114205433913370454414)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/commonsguy)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://commonsware.com/)
+[![](art/google_plus.png)](https://plus.google.com/u/0/114205433913370454414)   [![](art/github.png)](https://github.com/commonsguy)
+[![](art/web.png)](http://commonsware.com/)
 
 ### [Sergey Tarasevich](https://github.com/nostra13)
 ![](https://avatars3.githubusercontent.com/u/1223348?v=3&s=188)
@@ -205,7 +210,7 @@ Yalantis提供了很多超级酷炫的动画库。
 * [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+SergeyTarasevich)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/nostra13)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+SergeyTarasevich)   [![](art/github.png)](https://github.com/nostra13)
 
 ### [Koushik Dutta](https://github.com/koush)
 ![](https://avatars3.githubusercontent.com/u/73924?v=3&s=188)
@@ -221,8 +226,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/110558071969009568835)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/koush)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://koush.com/)
+[![](art/google_plus.png)](https://plus.google.com/u/0/110558071969009568835)   [![](art/github.png)](https://github.com/koush)
+[![](art/web.png)](http://koush.com/)
 
 ### [Jeremy Feinstein](https://github.com/jfeinstein10)
 ![](https://avatars0.githubusercontent.com/u/1269143?v=3&s=188)
@@ -235,8 +240,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+JeremyFeinstein)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/jfeinstein10)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://jeremyfeinstein.com)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+JeremyFeinstein)   [![](art/github.png)](https://github.com/jfeinstein10)
+[![](art/web.png)](http://jeremyfeinstein.com)
 
 ### [Simon Vig](https://github.com/SimonVT)
 ![](https://avatars1.githubusercontent.com/u/549365?v=3&s=188)
@@ -247,8 +252,8 @@ Yalantis提供了很多超级酷炫的动画库。
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/+SimonVigTherkildsen)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/SimonVT)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://simonvt.net/)
+[![](art/google_plus.png)](https://plus.google.com/+SimonVigTherkildsen)   [![](art/github.png)](https://github.com/SimonVT)
+[![](art/web.png)](http://simonvt.net/)
 
 ### [James Smith](https://github.com/loopj)
 ![](https://avatars3.githubusercontent.com/u/104009?v=3&s=188)
@@ -263,8 +268,8 @@ from http://loopj.com/
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/loopj)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://loopj.com/)
+[![](art/github.png)](https://github.com/loopj)
+[![](art/web.png)](http://loopj.com/)
 
 ### [Roman Nurik](https://github.com/romannurik)
 ![](https://avatars2.githubusercontent.com/u/100155?v=3&s=188)
@@ -280,8 +285,8 @@ from http://loopj.com/
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/+RomanNurik)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/romannurik)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://roman.nurik.net/)
+[![](art/google_plus.png)](https://plus.google.com/+RomanNurik)   [![](art/github.png)](https://github.com/romannurik)
+[![](art/web.png)](http://roman.nurik.net/)
 
 ### [Romain Guy](https://github.com/romainguy)
 ![](https://avatars0.githubusercontent.com/u/869684?v=3&s=188)
@@ -296,8 +301,8 @@ from [plus](https://plus.google.com/+RomainGuy)
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/+RomainGuy)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/romainguy)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://www.curious-creature.com/)
+[![](art/google_plus.png)](https://plus.google.com/+RomainGuy)   [![](art/github.png)](https://github.com/romainguy)
+[![](art/web.png)](http://www.curious-creature.com/)
 
 ### [ManuelPeinado](https://github.com/ManuelPeinado)
 ![](https://avatars2.githubusercontent.com/u/2700015?v=3&s=188)
@@ -309,7 +314,7 @@ from [plus](https://plus.google.com/+RomainGuy)
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/106514622630861903655)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/ManuelPeinado)
+[![](art/google_plus.png)](https://plus.google.com/106514622630861903655)   [![](art/github.png)](https://github.com/ManuelPeinado)
 
 
 ### [Emil Sjölander](https://github.com/emilsjolander)
@@ -328,8 +333,8 @@ from [plus](https://plus.google.com/u/0/+emilsjolander/)
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+emilsjolander)   [![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/emilsjolander)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://emilsjolander.se/)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+emilsjolander)   [![](art/github.png)](https://github.com/emilsjolander)
+[![](art/web.png)](http://emilsjolander.se/)
 
 ### [Daniel Lew](https://github.com/dlew)
 ![](https://avatars0.githubusercontent.com/u/514850?v=3&s=188)
@@ -342,8 +347,8 @@ from [plus](https://plus.google.com/u/0/+emilsjolander/)
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/dlew)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://danlew.net/)
+[![](art/github.png)](https://github.com/dlew)
+[![](art/web.png)](http://danlew.net/)
 
 ### [Vladislav Bauer](https://github.com/vbauer)
 ![](https://avatars1.githubusercontent.com/u/578021?v=3&s=188)
@@ -355,10 +360,10 @@ vbauer最著名的就是创建了[android-arsenal](http://android-arsenal.com)�
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](https://plus.google.com/u/0/+VladislavBauer)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/vbauer)
+[![](art/google_plus.png)](https://plus.google.com/u/0/+VladislavBauer)
+[![](art/github.png)](https://github.com/vbauer)
 
-<a href="#COM" title="返回目录" style="width:100%"><img src="https://raw.githubusercontent.com/yeungeek/awesome-android-person/master/art/ic_arrow.png" align="right"/></a>
+<a href="#com" title="返回目录" style="width:100%"><img src="https://raw.githubusercontent.com/yeungeek/awesome-android-person/master/art/ic_arrow.png" align="right"/></a>
 
 国内的Android大神，与国外的大神风格有很多不同，很多有名的在github找不到对应的。  
 目前很多都比较专注在csdn，cnblogs等一些博客上。
@@ -369,8 +374,8 @@ vbauer最著名的就是创建了[android-arsenal](http://android-arsenal.com)�
 并有相关书籍发布[Android系统源代码情景分析](http://wenku.it168.com/d_000574719.shtml)，专注于Android源码分析。
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/weibo.png)](http://weibo.com/shengyangluo)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://danlew.net/)
+[![](art/weibo.png)](http://weibo.com/shengyangluo)
+[![](art/web.png)](http://danlew.net/)
 
 ### [邓凡平](http://blog.csdn.net/innost)
 
@@ -378,7 +383,7 @@ vbauer最著名的就是创建了[android-arsenal](http://android-arsenal.com)�
 这是在[专访邓凡平：Android开发路上的快速学习之道](http://www.csdn.net/article/1970-01-01/2815118)中的描述。
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](https://xitu.io/231)
+[![](art/web.png)](https://xitu.io/231)
 
 ### [Trinea](https://github.com/trinea)
 
@@ -392,9 +397,9 @@ Trinea大神，目前就职于快的，专注于android性能优化和开源项�
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/Trinea)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/weibo.png)](http://weibo.com/trinea)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://www.trinea.cn/)
+[![](art/github.png)](https://github.com/Trinea)
+[![](art/weibo.png)](http://weibo.com/trinea)
+[![](art/web.png)](http://www.trinea.cn/)
 
 ![](http://codekk.com/images/weixin-trinea-256.jpeg)
 
@@ -404,7 +409,7 @@ Trinea大神，目前就职于快的，专注于android性能优化和开源项�
 技术博客已经很久没有更新了，不过我们的人生不仅仅只有技术啊
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://blog.csdn.net/android_tutor)
+[![](art/web.png)](http://blog.csdn.net/android_tutor)
 
 ### [halzhang](https://github.com/halzhang)
 ![](https://avatars1.githubusercontent.com/u/542297?v=3&s=188)
@@ -418,55 +423,11 @@ Trinea大神，目前就职于快的，专注于android性能优化和开源项�
 ...
 
 **contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/halzhang)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/weibo.png)](http://weibo.com/halzhang)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://www.cnblogs.com/halzhang)
+[![](art/github.png)](https://github.com/halzhang)
+[![](art/weibo.png)](http://weibo.com/halzhang)
+[![](art/web.png)](http://www.cnblogs.com/halzhang)
 
 ### [daimajia](https://github.com/daimajia)
 ![](https://avatars3.githubusercontent.com/u/2503423?v=3&s=188)
 
-> 一个绝对优秀的程序员，在 Github 上 Android 国内第一人。  
-现为稀土项目的联合创始人  
------------------------ from [xitu](https://xitu.io/2)
-
-**masterpiece**:  
-* [AndroidSwipeLayout](https://github.com/daimajia/AndroidSwipeLayout)
-* [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)  
-* [AndroidImageSlider](https://github.com/daimajia/AndroidImageSlider)
-* [NumberProgressBar](https://github.com/daimajia/NumberProgressBar)
-* [AndroidViewHover](https://github.com/daimajia/AndroidViewHover)  
-...
-
-**contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/google_plus.png)](http://google.com/+daimajia)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/daimajia)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/weibo.png)](http://weibo.com/daimajia)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/xitu.png)](https://xitu.io/2)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://blog.daimajia.com/)
-
-### [张鸿洋](https://github.com/hongyangAndroid)
-![](http://avatar.csdn.net/F/F/5/1_lmj623565791.jpg)
-
-CSDN认证专家，2014博客之星.鸿洋老师精通Java企业级开发，对基于Java的Web框架有一定的认知。
-而且还在csdn上撰写了"Android 精彩案例"一系列博文。
-
-**masterpiece**:  
-* [android-percent-support-extend](https://github.com/hongyangAndroid/android-percent-support-extend)
-* [Android-CircleMenu](https://github.com/hongyangAndroid/Android-CircleMenu)
-* [Android-StickyNavLayout](https://github.com/hongyangAndroid/Android-StickyNavLayout)
-* [ColorTrackView](https://github.com/hongyangAndroid/ColorTrackView)
-
-**contact**:  
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/github.png)](https://github.com/hongyangAndroid)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/weibo.png)](http://weibo.com/u/3165018720)
-[![](https://github.com/yeungeek/awesome-android-person/raw/master/art/web.png)](http://blog.csdn.net/lmj623565791)
-
-
-<a href="#CN" title="返回目录" style="width:100%"><img src="https://raw.githubusercontent.com/yeungeek/awesome-android-person/master/art/ic_arrow.png" align="right"/></a>
-
-## Reference
-*  [Trinea android-open-project](https://github.com/Trinea/android-open-project)
-*  [android dev cn](https://github.com/android-cn/android-dev-cn)
-*  [android dev com](https://github.com/android-cn/android-dev-com)
-*  [Android Dev Bookmarks](https://github.com/zhengxiaopeng/android-dev-bookmarks)
-* [xitu](https://xitu.io)
+> 一个绝对优秀的程序员，在 Github 

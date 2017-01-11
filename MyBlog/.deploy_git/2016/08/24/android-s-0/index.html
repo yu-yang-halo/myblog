@@ -110,22 +110,19 @@
 
 
 
-<meta name="description" content="Android源码下载及编译使用科大镜像（国内无法直接访问google）
-首先下载 repo 工具1234mkdir ~/binPATH=~/bin:$PATHcurl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo &amp;gt; ~/bin/repochmod a+x ~/bin/repo
-然后建立一个工作目录（名">
+<meta name="description" content="Android&amp;#x6E90;&amp;#x7801;&amp;#x4E0B;&amp;#x8F7D;&amp;#x53CA;&amp;#x7F16;&amp;#x8BD1;&amp;#x4F7F;&amp;#x7528;&amp;#x79D1;&amp;#x5927;&amp;#x955C;&amp;#x50CF;&amp;#xFF08;&amp;#x56FD;&amp;#x5185;&amp;#x65E0;&amp;#x6CD5;&amp;#x76F4;&amp;#x63A5;&amp;#x8BBF;&amp;#x95EE;google&amp;#xFF09;
+&amp;#">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android源代码编译">
 <meta property="og:url" content="www.baidu.com/2016/08/24/android-s-0/index.html">
 <meta property="og:site_name" content="开启学习之旅">
-<meta property="og:description" content="Android源码下载及编译使用科大镜像（国内无法直接访问google）
-首先下载 repo 工具1234mkdir ~/binPATH=~/bin:$PATHcurl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo &amp;gt; ~/bin/repochmod a+x ~/bin/repo
-然后建立一个工作目录（名">
+<meta property="og:description" content="Android&amp;#x6E90;&amp;#x7801;&amp;#x4E0B;&amp;#x8F7D;&amp;#x53CA;&amp;#x7F16;&amp;#x8BD1;&amp;#x4F7F;&amp;#x7528;&amp;#x79D1;&amp;#x5927;&amp;#x955C;&amp;#x50CF;&amp;#xFF08;&amp;#x56FD;&amp;#x5185;&amp;#x65E0;&amp;#x6CD5;&amp;#x76F4;&amp;#x63A5;&amp;#x8BBF;&amp;#x95EE;google&amp;#xFF09;
+&amp;#">
 <meta property="og:updated_time" content="2016-08-25T06:18:07.055Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android源代码编译">
-<meta name="twitter:description" content="Android源码下载及编译使用科大镜像（国内无法直接访问google）
-首先下载 repo 工具1234mkdir ~/binPATH=~/bin:$PATHcurl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo &amp;gt; ~/bin/repochmod a+x ~/bin/repo
-然后建立一个工作目录（名">
+<meta name="twitter:description" content="Android&amp;#x6E90;&amp;#x7801;&amp;#x4E0B;&amp;#x8F7D;&amp;#x53CA;&amp;#x7F16;&amp;#x8BD1;&amp;#x4F7F;&amp;#x7528;&amp;#x79D1;&amp;#x5927;&amp;#x955C;&amp;#x50CF;&amp;#xFF08;&amp;#x56FD;&amp;#x5185;&amp;#x65E0;&amp;#x6CD5;&amp;#x76F4;&amp;#x63A5;&amp;#x8BBF;&amp;#x95EE;google&amp;#xFF09;
+&amp;#">
 
 
 
@@ -396,16 +393,16 @@
       
 
       
-        <h1 id="Android源码下载及编译"><a href="#Android源码下载及编译" class="headerlink" title="Android源码下载及编译"></a>Android源码下载及编译</h1><p>使用科大镜像（国内无法直接访问google）</p>
-<p>首先下载 repo 工具<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mkdir ~/bin</div><div class="line">PATH=~/bin:<span class="variable">$PATH</span></div><div class="line">curl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo &gt; ~/bin/repo</div><div class="line">chmod a+x ~/bin/repo</div></pre></td></tr></table></figure></p>
-<p>然后建立一个工作目录（名字任意）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir AndroidSource</div><div class="line"><span class="built_in">cd</span> AndroidSource</div></pre></td></tr></table></figure></p>
-<p>初始化仓库：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest</div><div class="line"><span class="comment">## 如果提示无法连接到 gerrit.googlesource.com，可以编辑 ~/bin/repo，把 REPO_URL 一行替换成下面的：</span></div><div class="line"><span class="comment">## REPO_URL = 'https://gerrit-googlesource.lug.ustc.edu.cn/git-repo'</span></div></pre></td></tr></table></figure>
-<p>下载特定的android源码版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-4.0.1_r1</div></pre></td></tr></table></figure></p>
-<p>同步源码树<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">repo sync</div></pre></td></tr></table></figure></p>
-<p>可能需要漫长的等待android源码的下载</p>
-<p>源码下载完成后，开始编译android源码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">source</span> build/envset.sh</div><div class="line">lunch full-eng</div><div class="line">make</div></pre></td></tr></table></figure></p>
-<p>简单的三步即可完成源码的编译</p>
+        <h1 id="Android&#x6E90;&#x7801;&#x4E0B;&#x8F7D;&#x53CA;&#x7F16;&#x8BD1;"><a href="#Android&#x6E90;&#x7801;&#x4E0B;&#x8F7D;&#x53CA;&#x7F16;&#x8BD1;" class="headerlink" title="Android&#x6E90;&#x7801;&#x4E0B;&#x8F7D;&#x53CA;&#x7F16;&#x8BD1;"></a>Android&#x6E90;&#x7801;&#x4E0B;&#x8F7D;&#x53CA;&#x7F16;&#x8BD1;</h1><p>&#x4F7F;&#x7528;&#x79D1;&#x5927;&#x955C;&#x50CF;&#xFF08;&#x56FD;&#x5185;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;google&#xFF09;</p>
+<p>&#x9996;&#x5148;&#x4E0B;&#x8F7D; repo &#x5DE5;&#x5177;<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mkdir ~/bin</div><div class="line">PATH=~/bin:<span class="variable">$PATH</span></div><div class="line">curl https://storage-googleapis.lug.ustc.edu.cn/git-repo-downloads/repo &gt; ~/bin/repo</div><div class="line">chmod a+x ~/bin/repo</div></pre></td></tr></table></figure></p>
+<p>&#x7136;&#x540E;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#xFF08;&#x540D;&#x5B57;&#x4EFB;&#x610F;&#xFF09;<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir AndroidSource</div><div class="line"><span class="built_in">cd</span> AndroidSource</div></pre></td></tr></table></figure></p>
+<p>&#x521D;&#x59CB;&#x5316;&#x4ED3;&#x5E93;&#xFF1A;</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest</div><div class="line"><span class="comment">## &#x5982;&#x679C;&#x63D0;&#x793A;&#x65E0;&#x6CD5;&#x8FDE;&#x63A5;&#x5230; gerrit.googlesource.com&#xFF0C;&#x53EF;&#x4EE5;&#x7F16;&#x8F91; ~/bin/repo&#xFF0C;&#x628A; REPO_URL &#x4E00;&#x884C;&#x66FF;&#x6362;&#x6210;&#x4E0B;&#x9762;&#x7684;&#xFF1A;</span></div><div class="line"><span class="comment">## REPO_URL = &apos;https://gerrit-googlesource.lug.ustc.edu.cn/git-repo&apos;</span></div></pre></td></tr></table></figure>
+<p>&#x4E0B;&#x8F7D;&#x7279;&#x5B9A;&#x7684;android&#x6E90;&#x7801;&#x7248;&#x672C;<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-4.0.1_r1</div></pre></td></tr></table></figure></p>
+<p>&#x540C;&#x6B65;&#x6E90;&#x7801;&#x6811;<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">repo sync</div></pre></td></tr></table></figure></p>
+<p>&#x53EF;&#x80FD;&#x9700;&#x8981;&#x6F2B;&#x957F;&#x7684;&#x7B49;&#x5F85;android&#x6E90;&#x7801;&#x7684;&#x4E0B;&#x8F7D;</p>
+<p>&#x6E90;&#x7801;&#x4E0B;&#x8F7D;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x5F00;&#x59CB;&#x7F16;&#x8BD1;android&#x6E90;&#x7801;<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">source</span> build/envset.sh</div><div class="line">lunch full-eng</div><div class="line">make</div></pre></td></tr></table></figure></p>
+<p>&#x7B80;&#x5355;&#x7684;&#x4E09;&#x6B65;&#x5373;&#x53EF;&#x5B8C;&#x6210;&#x6E90;&#x7801;&#x7684;&#x7F16;&#x8BD1;</p>
 
       
     </div>
@@ -515,7 +512,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-count">7</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -532,7 +529,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -628,8 +625,8 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
-  <span itemprop="copyrightYear">2016</span>
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
